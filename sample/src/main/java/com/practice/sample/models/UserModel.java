@@ -27,6 +27,11 @@ public class UserModel {
 		this.role = role;
 		this.password=password;
 	}
+	@Override
+	public String toString() {
+		return "UserModel [id=" + id + ", name=" + name + ", role=" + role + ", password=" + password + ", version="
+				+ version + "]";
+	}
 	public String getPassword() {
 		return password;
 	}
